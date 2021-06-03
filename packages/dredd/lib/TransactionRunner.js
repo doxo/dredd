@@ -132,6 +132,7 @@ class TransactionRunner {
       // Iterate over transactions' transaction
       // Because async changes the way referencing of properties work,
       // we need to work with indexes (keys) here, no other way of access.
+      if(hooks.configuration) _this.configuration.http = hooks.configuration.http;
       return async.timesSeries(
         transactions.length,
         (transactionIndex, iterationCallback) => {
