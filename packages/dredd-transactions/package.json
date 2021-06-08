@@ -57,5 +57,6 @@
   ],
   "author": "Apiary Czech Republic, s.r.o. <support@apiary.io>",
   "license": "MIT",
-  "homepage": "https://github.com/apiaryio/dredd/tree/master/packages/dredd-transactions"
+  "homepage": "https://github.com/apiaryio/dredd/tree/master/packages/dredd-transactions",
+  "gitHead": "f7ebc1af23856f79b0d053ab899f524abe42a201"
 }
